@@ -26,7 +26,7 @@ Submissions that do not have an associated issue are unlikely to be approved.
 
 ### Setup
 ```shell
-git clone https://github.com/Microsoft/vscode-jupyter-powertoys
+git clone https://github.com/CommanderPho/vscode-jupyter-powertoys
 cd vscode-jupyter-powertoys
 npm ci
 ```

@@ -4,14 +4,14 @@
     "publisher": "ms-toolsai",
     "preview": true,
     "author": {
-        "name": "Microsoft Corporation"
+        "name": "Pho + Microsoft Corporation"
     },
     "license": "MIT",
-    "homepage": "https://github.com/Microsoft/vscode-jupyter-powertoys",
+    "homepage": "https://github.com/CommanderPho/vscode-jupyter-powertoys",
     "description": "Experimental features for Jupyter notebook support in VS Code.",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Microsoft/vscode-jupyter-powertoys"
+        "url": "https://github.com/CommanderPho/vscode-jupyter-powertoys"
     },
     "icon": "icon.png",
     "galleryBanner": {
@@ -19,12 +19,12 @@
         "theme": "light"
     },
     "bugs": {
-        "url": "https://github.com/Microsoft/vscode-jupyter-powertoys/issues"
+        "url": "https://github.com/CommanderPho/vscode-jupyter-powertoys/issues"
     },
     "qna": "https://github.com/microsoft/vscode-jupyter-powertoys/discussions",
-    "version": "0.1.0",
+    "version": "0.666.1",
     "engines": {
-        "vscode": "^1.85.0"
+        "vscode": "^1.85.1"
     },
     "extensionDependencies": [
         "ms-toolsai.jupyter"
@@ -34,7 +34,8 @@
         "notebook",
         "ipynb",
         "execution",
-        "notebookKernelJupyterNotebook"
+        "notebookKernelJupyterNotebook",
+        "Pho"
     ],
     "categories": [
         "Other",
