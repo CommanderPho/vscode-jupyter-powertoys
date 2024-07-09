@@ -14,7 +14,7 @@ export async function activate(context: ExtensionContext) {
             return;
         }
         activated = true;
-        const jupyterExt = extensions.getExtension<JupyterAPI>('ms-toolsai.jupyter');
+        const jupyterExt = extensions.getExtension<JupyterAPI>('phohale.jupyter');
         if (!jupyterExt) {
             return;
         }

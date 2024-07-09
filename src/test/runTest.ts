@@ -27,7 +27,7 @@ async function main() {
 function installDependencyExtensions(vscodeExecutablePath: string) {
 	// Install the Jupyter Extension
 	const cliPath = resolveCliPathFromVSCodeExecutablePath(vscodeExecutablePath);
-    spawnSync(cliPath, ['--install-extension', 'ms-toolsai.jupyter'], {
+    spawnSync(cliPath, ['--install-extension', 'phohale.jupyter'], {
         encoding: 'utf-8',
         stdio: 'inherit'
     });

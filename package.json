@@ -1,7 +1,7 @@
 {
     "name": "vscode-jupyter-powertoys",
     "displayName": "Jupyter PowerToys",
-    "publisher": "ms-toolsai",
+    "publisher": "phohale",
     "preview": true,
     "author": {
         "name": "Pho + Microsoft Corporation"
@@ -22,12 +22,12 @@
         "url": "https://github.com/CommanderPho/vscode-jupyter-powertoys/issues"
     },
     "qna": "https://github.com/microsoft/vscode-jupyter-powertoys/discussions",
-    "version": "0.666.1",
+    "version": "0.666.2",
     "engines": {
         "vscode": "^1.85.1"
     },
     "extensionDependencies": [
-        "ms-toolsai.jupyter"
+        "phohale.jupyter"
     ],
     "keywords": [
         "jupyter",

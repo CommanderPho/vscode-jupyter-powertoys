@@ -19,7 +19,7 @@ export async function activate(context: ExtensionContext) {
         }
         activated = true;
         void initializeKnownLanguages();
-        const jupyterExt = extensions.getExtension<JupyterAPI>('ms-toolsai.jupyter');
+        const jupyterExt = extensions.getExtension<JupyterAPI>('phohale.jupyter');
         if (!jupyterExt) {
             return;
         }

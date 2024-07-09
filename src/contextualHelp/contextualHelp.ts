@@ -292,7 +292,7 @@ export class ContextualHelp extends WebviewViewHost<MessageMapping> implements v
         if (!this.kernelService) {
             if (notebook) {
                 // Load the jupyter extension if possible
-                const extension = vscode.extensions.getExtension('ms-toolsai.jupyter');
+                const extension = vscode.extensions.getExtension('phohale.jupyter');
                 if (extension) {
                     await extension.activate();
                     const exports = extension.exports as JupyterAPI;

@@ -8,7 +8,7 @@ suite('Extension Test Suite', () => {
 
 	// Test to make sure that we can activate our extension
 	test('Extension Activation', async () => {
-		const ptExtension = vscode.extensions.getExtension('ms-toolsai.vscode-jupyter-powertoys');
+		const ptExtension = vscode.extensions.getExtension('phohale.vscode-jupyter-powertoys');
 
 		if (!ptExtension) {
 			assert.fail('Failed to find powertoys extension');
