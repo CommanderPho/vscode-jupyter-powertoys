@@ -24,7 +24,7 @@
     "qna": "https://github.com/microsoft/vscode-jupyter-powertoys/discussions",
     "version": "0.666.1",
     "engines": {
-        "vscode": "^1.85.1"
+        "vscode": "^1.88.0"
     },
     "extensionDependencies": [
         "ms-toolsai.jupyter"
@@ -175,7 +175,7 @@
             },
             {
                 "command": "jupyter.notebookeditor.openContextualHelp",
-                "title": "%jupyter.command.jupyter.openContextualHelp.title%",
+                "title": "Open Context Menu Help",
                 "category": "Notebook",
                 "enablement": "notebookType == jupyter-notebook && isWorkspaceTrusted && jupyter.ispythonnotebook"
             },
@@ -270,7 +270,7 @@
                 },
                 {
                     "command": "jupyter.notebookeditor.openContextualHelp",
-                    "title": "%jupyter.command.jupyter.openContextualHelp.title%",
+                    "title": "Open Context Menu Help",
                     "category": "Notebook",
                     "enablement": "isWorkspaceTrusted && jupyter.ispythonnotebook && config.jupyter.contextualHelp.enabled"
                 },
@@ -549,6 +549,7 @@
         "@typescript-eslint/eslint-plugin": "^5.1.0",
         "@typescript-eslint/parser": "^5.1.0",
         "@vscode/dts": "^0.4.0",
+        "@vscode/jupyter-extension": "^1.0.91",
         "@vscode/test-electron": "^1.6.2",
         "babel-polyfill": "^6.26.0",
         "clean-terminal-webpack-plugin": "^3.0.0",
@@ -585,6 +586,7 @@
         "@loadable/component": "^5.15.2",
         "@nteract/transforms": "^5.0.4-alpha.0",
         "@types/vscode-notebook-renderer": "^1.72.3",
+        "@vscode/python-extension": "^1.0.5",
         "ansi-regex": "^6.0.1",
         "ansi-to-html": "^0.7.2",
         "fs-extra": "^10.0.1",
@@ -604,9 +606,14 @@
     "overrides": {
         "trim@<1.0.0": "1.0.1",
         "json5": "2.2.2",
+        "ws@<7.5.10": "7.5.10",
+        "braces": "3.0.3",
         "moment@<2.29.4": "2.29.4",
         "terser@<5.14.2": "5.14.2",
         "semver@<5.7.1": "5.7.2",
-        "loader-utils": "3.2.1"
+        "loader-utils": "3.2.1",
+        "@jupyterlab/services": {
+            "ws@<8.17.1": "8.17.1"
+        }
     }
 }
