@@ -18,5 +18,11 @@
         "source.fixAll.tslint": "explicit"
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "typescript.preferences.importModuleSpecifier": "relative"
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "actionButtons": {
+        "commands": [],
+        "defaultColor": "white",
+        "reloadButton": "↻",
+        "loadNpmCommands": true
+    }
 }
