@@ -24,7 +24,7 @@
     "qna": "https://github.com/microsoft/vscode-jupyter-powertoys/discussions",
     "version": "0.1.2",
     "engines": {
-        "vscode": "^1.88.0"
+        "vscode": "^1.92.0"
     },
     "extensionDependencies": [
         "phohale.jupyter"
@@ -532,7 +532,7 @@
         "lint": "eslint src --ext ts",
         "test": "node ./out/test/runTest.js",
         "postinstall": "npm run download-api",
-        "download-api": "npx vscode-dts 1.84.0",
+        "download-api": "npx vscode-dts 1.92.0",
         "compiled": "deemon npm run watch",
         "kill-compiled": "deemon --kill npm run watch"
     },
